@@ -14,4 +14,12 @@ void main() {
 
   // Printing a number literal
   print(42);
+
+  // Example: printing variables
+  String name = "Prabhat";
+  int age = 20;
+  print("My name is $name and I am $age years old.");
+
+  // You can also use expressions inside print
+  print("In 5 years, I’ll be ${age + 5} years old!");
 }
